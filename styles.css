@@ -125,6 +125,9 @@ section{
     margin: 50px 60px;
     gap: 6.66%;
 }
+.welcome{
+    margin-right: 60px;
+}
 .groups{
     max-width: 770px;
 }
