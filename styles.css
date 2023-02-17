@@ -33,6 +33,10 @@ p{
     line-height: 45px;
     color:#FEFCFB;
 }
+a{
+    text-decoration: none;
+    /* margin: 0 auto; */
+}
 
 /* Header Style */
 
