@@ -161,3 +161,108 @@ button:active{
     box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 0.4);
     background: #13BF81;
 }
+
+@media only screen and (max-width: 1185px){
+
+    /* Text Styles */
+
+header h1{
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 45%;
+    margin-right: 0 auto;
+}
+h1{
+    font-size: 32px;
+    line-height: 38px;
+}
+p{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/* Header style */
+
+header button{
+    padding: 4px;
+    gap: 4px;
+    border: 2.23px solid #001F54;
+    font-size: 12px;
+    line-height: 16px;
+    margin-right: 2.3%;
+}
+.banner{
+    height: 50px;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+/* Body style */
+
+ .card{
+    max-width: 400px ;
+    margin-top: 30px;
+ }
+ .cardContent1{
+    margin: 20px 30px;
+    gap: 20px;
+}
+.cardContent2{
+    margin: 20px 30px;
+    gap: 6.66%;
+}
+ .cardContent1 img{
+    width: 360px;
+ }
+ .cardContent2 img{
+    width: 150px;
+ }
+ .welcome{
+    margin-right: 0;
+ }
+ button{
+    padding: 4px;
+    gap: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 30px 0px;
+}
+}
+
+@media only screen and (max-width: 485px){
+    header h1{
+        margin-left: 40%;
+    }
+}
+
+@media only screen and (max-width: 445px){
+    header h1{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    header button{
+        padding: 2px;
+        gap: 2px;
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    h1{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .cardContent1 img{
+        width: 75%;
+    }
+    .cardContent2 img{
+        width: 40%;
+    }
+    header{
+        margin: 5px;
+    }
+}
